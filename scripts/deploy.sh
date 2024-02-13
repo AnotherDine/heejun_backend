@@ -11,7 +11,7 @@ CURRENT_PID=$(pgrep -f $APP_NAME)
 
 if [ -z $CURRENT_PID ]
 then
-  echo "> Á¾·áÇÒ ¾ÖÇÃ¸®ÄÉÀÌ¼ÇÀÌ ¾ø½À´Ï´Ù."
+  echo "> ì¢…ë£Œí•  ì• í”Œë¦¬ì¼€ì´ì…˜ì´ ì—†ìŠµë‹ˆë‹¤."
 else
   echo "> kill -9 $CURRENT_PID"
   kill -15 $CURRENT_PID
