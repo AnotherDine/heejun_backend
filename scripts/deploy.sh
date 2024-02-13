@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-REPOSITORY=/home/ec2-user/heejun_backend
+REPOSITORY=/home/ec2-user/heejun-backend
 cd $REPOSITORY
 
 APP_NAME=moduform
